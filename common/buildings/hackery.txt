@@ -1,0 +1,33 @@
+building_hackery = {
+	base_buildtime = @b1_time
+	category = resource
+	resources = {
+		category = planet_buildings
+		produces = {
+			consumer_goods = 1
+			unity = 1
+		}
+		cost = {
+			minerals = @b1_minerals
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	planet_modifier = {
+		job_farmer_add = 2
+		job_miner_add = 2
+		job_foundry_add = 2
+		job_artisan_add = 2
+		job_technician_add = 2
+		job_culture_worker_add = 2
+		planet_housing_add = 12
+		planet_amenities_add = 20
+	}
+	potential = {
+		exists = owner
+		owner = {
+			is_ai = no # Stop the AI from making these, for simplicity's sake
+		}
+	}
+}
