@@ -4,11 +4,54 @@ building_hackery = {
 	resources = {
 		category = planet_buildings
 		produces = {
-			consumer_goods = 1
 			unity = 1
 		}
 		cost = {
 			minerals = @b1_minerals
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+	planet_modifier = {
+		job_farmer_add = 1
+		job_miner_add = 1
+		job_foundry_add = 1
+		job_artisan_add = 1
+		job_technician_add = 1
+		job_culture_worker_add = 1
+		job_researcher_add = 1
+		job_translucer_add = 1
+		job_gas_refiner_add = 1
+		job_chemist_add = 1
+		planet_housing_add = 10
+		planet_amenities_add = 5
+	}
+	base_cap_amount = 1
+	potential = {
+		exists = owner
+		owner = {
+			is_ai = no # Stop the AI from making these, for simplicity's sake
+		}
+	}
+	upgrades = {
+		building_hackery_2
+	}
+}
+
+building_hackery_2 = {
+	base_buildtime = @b2_time
+	category = resource
+	can_build = no
+	resources = {
+		category = planet_buildings
+		produces = {
+			unity = 5
+			consumer_goods = 1
+			minerals = 1
+		}
+		cost = {
+			minerals = @b2_minerals
 		}
 		upkeep = {
 			energy = 2
@@ -21,13 +64,55 @@ building_hackery = {
 		job_artisan_add = 2
 		job_technician_add = 2
 		job_culture_worker_add = 2
-		planet_housing_add = 12
+		job_researcher_add = 2
+		job_translucer_add = 2
+		job_gas_refiner_add = 2
+		job_chemist_add = 2
+		planet_housing_add = 20
 		planet_amenities_add = 20
 	}
-	potential = {
-		exists = owner
-		owner = {
-			is_ai = no # Stop the AI from making these, for simplicity's sake
+	allow = {
+		has_upgraded_capital = yes
+	}
+	upgrades = {
+		building_hackery_3
+	}
+}
+
+building_hackery_3 = {
+	base_buildtime = @b3_time
+	category = resource
+	can_build = no
+	resources = {
+		category = planet_buildings
+		produces = {
+			unity = 50
+			consumer_goods = 5
+			minerals = 5
+			food = 5
 		}
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	planet_modifier = {
+		job_farmer_add = 5
+		job_miner_add = 5
+		job_foundry_add = 5
+		job_artisan_add = 5
+		job_technician_add = 5
+		job_culture_worker_add = 5
+		job_researcher_add = 5
+		job_translucer_add = 5
+		job_gas_refiner_add = 5
+		job_chemist_add = 5
+		planet_housing_add = 50
+		planet_amenities_add = 100
+	}
+	allow = {
+		has_major_upgraded_capital = yes
 	}
 }
