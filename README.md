@@ -31,3 +31,7 @@ path="mod/Hackery"
   - Otherwise, it's the number of other empires that have to band together to outvote you.
   - Show dominance as "out of N" where N is number of galcom members
   - What happens if you call in favours? How will that change your dominance? Can I even see that?
+
+To monitor the logs for errors and the log="" trigger:
+
+    tail -F ~/.local/share/Paradox Interactive/Stellaris/logs/{error,game}.log
