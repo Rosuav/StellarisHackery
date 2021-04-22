@@ -1,5 +1,5 @@
 building_hackery = {
-	base_buildtime = @b1_time
+	base_buildtime = 10
 	category = resource
 	resources = {
 		category = planet_buildings
@@ -37,6 +37,14 @@ building_hackery = {
 	upgrades = {
 		building_hackery_2
 	}
+	#on_built = {
+	#	owner = {
+	#		# Works with hard-coded values but exporting trigger values fails.
+	#		#set_variable { which = testing value = 123 }
+	#		export_trigger_value_to_variable = { trigger = diplomacy_weight variable = testing }
+	#		log = "My variable is [This.testing]."
+	#	}
+	#}
 }
 
 building_hackery_2 = {

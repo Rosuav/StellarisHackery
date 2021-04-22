@@ -1,32 +1,12 @@
 once = {
-	hackery_lots = {
+	hackery {
 		trigger = {
 			is_galactic_community_member = yes
-			diplomacy_weight >= 1000
 		}
-		resources = {
-			category = no_category
-			upkeep = { minerals = 100 }
-			produces = { energy = 100 }
-		}
-	}
-	hackery_some = {
-		trigger = {
-			is_galactic_community_member = yes
-			diplomacy_weight < 1000
-			diplomacy_weight >= 300
-		}
-		resources = {
-			category = no_category
-			upkeep = { minerals = 10 }
-			produces = { energy = 10 }
-		}
-	}
-	hackery_a_bit = {
-		trigger = {
-			is_galactic_community_member = yes
-			diplomacy_weight < 300
-		}
+		# Can't work with trigger values? Maybe?
+		# Can't seem to log in these actions, possibly since they're executed every tick
+		#export_trigger_value_to_variable = { trigger = diplomacy_weight variable = shift_amount }
+		#log = "Amount: [This.shift_amount]"
 		resources = {
 			category = no_category
 			upkeep = { minerals = 1 }

@@ -6,4 +6,4 @@ tags={
 	"Gameplay"
 }
 name="Hackery"
-supported_version="2.8.1" # Haven't tested it on anything older
+supported_version="3.0.2" # Uses new scripting facilities that came in alongside Nemesis

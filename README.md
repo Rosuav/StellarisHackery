@@ -14,8 +14,9 @@ mod/Hackery.mod, and add this line at the bottom:
 path="mod/Hackery"
 
 
-- Console output?
-- Console commands?
+- Console output? Works in some contexts, not others
+- Console commands? Can't seem to create my own
+- Add button to window??
 - Change tooltip?
 - Show total diplo weight across all galcom members
 - Show your weight as a percentage
