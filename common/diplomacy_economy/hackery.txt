@@ -1,0 +1,36 @@
+once = {
+	hackery_lots = {
+		trigger = {
+			is_galactic_community_member = yes
+			diplomacy_weight >= 1000
+		}
+		resources = {
+			category = no_category
+			upkeep = { minerals = 100 }
+			produces = { energy = 100 }
+		}
+	}
+	hackery_some = {
+		trigger = {
+			is_galactic_community_member = yes
+			diplomacy_weight < 1000
+			diplomacy_weight >= 300
+		}
+		resources = {
+			category = no_category
+			upkeep = { minerals = 10 }
+			produces = { energy = 10 }
+		}
+	}
+	hackery_a_bit = {
+		trigger = {
+			is_galactic_community_member = yes
+			diplomacy_weight < 300
+		}
+		resources = {
+			category = no_category
+			upkeep = { minerals = 1 }
+			produces = { energy = 1 }
+		}
+	}
+}
