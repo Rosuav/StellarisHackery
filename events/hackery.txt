@@ -1,0 +1,10 @@
+namespace = hackery
+
+event = {
+	id = hackery.1234
+	is_triggered_only = yes
+	log = "Mod loaded"
+	every_country = {
+		log = "Country: [This.name]"
+	}
+}

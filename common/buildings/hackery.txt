@@ -37,14 +37,21 @@ building_hackery = {
 	upgrades = {
 		building_hackery_2
 	}
-	#on_built = {
+	on_built = {
 	#	owner = {
 	#		# Works with hard-coded values but exporting trigger values fails.
+	#		# Might require Stellaris 3.0.3 or 3.1... or 4.0.
 	#		#set_variable { which = testing value = 123 }
 	#		export_trigger_value_to_variable = { trigger = diplomacy_weight variable = testing }
-	#		log = "My variable is [This.testing]."
+			log = "My variable is [This.testing]."
 	#	}
-	#}
+	}
+	on_queued = {
+		log = "Queued"
+		every_country = {
+			log = "Country"
+		}
+	}
 }
 
 building_hackery_2 = {
