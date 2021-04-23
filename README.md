@@ -34,4 +34,4 @@ path="mod/Hackery"
 
 To monitor the logs for errors and the log="" trigger:
 
-    tail -F ~/.local/share/Paradox Interactive/Stellaris/logs/{error,game}.log
+    tail -F ~/.local/share/Paradox\ Interactive/Stellaris/logs/{error,game}.log
