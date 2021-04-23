@@ -31,6 +31,12 @@ path="mod/Hackery"
   - Otherwise, it's the number of other empires that have to band together to outvote you.
   - Show dominance as "out of N" where N is number of galcom members
   - What happens if you call in favours? How will that change your dominance? Can I even see that?
+- Opening a dialog with info:
+  - James Fire#4872: "You can check out what I've done in Space Exploitation and Autofabs Origin."
+    "When you're ready to try doing stuff with UI, if ever, you can ping me."
+    "Or just come down to #james-and-albertos-attic and talk there."
+  - Erdnuss#1093: "Changing UI [won't change the checksum], but the buttons you add will probably be
+     an effectButton that is linked to a button_effect (in common) which changes checksum"
 
 To monitor the logs for errors and the log="" trigger:
 
