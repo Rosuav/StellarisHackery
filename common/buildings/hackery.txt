@@ -15,7 +15,8 @@ building_hackery = {
 	}
 	country_modifier = {
 		planet_sensor_range_add = 1
-		sensor_range = 1
+		ship_sensor_range_add = 1
+		ship_hyperlane_range_add = 1
 	}
 	base_cap_amount = 1
 	potential = {
@@ -49,7 +50,8 @@ building_hackery_2 = {
 	}
 	country_modifier = {
 		planet_sensor_range_add = 1
-		sensor_range = 1
+		ship_sensor_range_add = 1
+		ship_hyperlane_range_add = 2
 	}
 	allow = {
 		has_upgraded_capital = yes
@@ -80,7 +82,8 @@ building_hackery_3 = {
 	}
 	country_modifier = {
 		planet_sensor_range_add = 1
-		sensor_range = 1
+		ship_sensor_range_add = 1
+		ship_hyperlane_range_add = 4
 	}
 	allow = {
 		has_major_upgraded_capital = yes
