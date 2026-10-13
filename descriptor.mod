@@ -6,4 +6,4 @@ tags={
 	"Gameplay"
 }
 name="Hackery"
-supported_version="4.5.2"
+supported_version="v4.5.*"

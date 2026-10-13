@@ -1,3 +1,0 @@
-on_single_player_save_game_load = {
-	events = { hackery.1234 }
-}
