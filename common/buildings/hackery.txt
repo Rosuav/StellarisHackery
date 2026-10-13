@@ -13,19 +13,8 @@ building_hackery = {
 			energy = 1
 		}
 	}
-	planet_modifier = {
-		job_farmer_add = 1
-		job_miner_add = 1
-		job_foundry_add = 1
-		job_artisan_add = 1
-		job_technician_add = 1
-		job_culture_worker_add = 1
-		job_researcher_add = 1
-		job_translucer_add = 1
-		job_gas_refiner_add = 1
-		job_chemist_add = 1
-		planet_housing_add = 10
-		planet_amenities_add = 5
+	country_modifier = {
+		planet_sensor_range_add = 1
 	}
 	base_cap_amount = 1
 	potential = {
@@ -36,21 +25,6 @@ building_hackery = {
 	}
 	upgrades = {
 		building_hackery_2
-	}
-	on_built = {
-	#	owner = {
-	#		# Works with hard-coded values but exporting trigger values fails.
-	#		# Might require Stellaris 3.0.3 or 3.1... or 4.0.
-	#		#set_variable { which = testing value = 123 }
-	#		export_trigger_value_to_variable = { trigger = diplomacy_weight variable = testing }
-			log = "My variable is [This.testing]."
-	#	}
-	}
-	on_queued = {
-		log = "Queued"
-		every_country = {
-			log = "Country"
-		}
 	}
 }
 
@@ -72,19 +46,8 @@ building_hackery_2 = {
 			energy = 2
 		}
 	}
-	planet_modifier = {
-		job_farmer_add = 2
-		job_miner_add = 2
-		job_foundry_add = 2
-		job_artisan_add = 2
-		job_technician_add = 2
-		job_culture_worker_add = 2
-		job_researcher_add = 2
-		job_translucer_add = 2
-		job_gas_refiner_add = 2
-		job_chemist_add = 2
-		planet_housing_add = 20
-		planet_amenities_add = 20
+	country_modifier = {
+		planet_sensor_range_add = 1
 	}
 	allow = {
 		has_upgraded_capital = yes
@@ -113,19 +76,8 @@ building_hackery_3 = {
 			energy = 5
 		}
 	}
-	planet_modifier = {
-		job_farmer_add = 5
-		job_miner_add = 5
-		job_foundry_add = 5
-		job_artisan_add = 5
-		job_technician_add = 5
-		job_culture_worker_add = 5
-		job_researcher_add = 5
-		job_translucer_add = 5
-		job_gas_refiner_add = 5
-		job_chemist_add = 5
-		planet_housing_add = 50
-		planet_amenities_add = 100
+	country_modifier = {
+		planet_sensor_range_add = 1
 	}
 	allow = {
 		has_major_upgraded_capital = yes
