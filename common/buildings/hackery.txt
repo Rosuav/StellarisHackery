@@ -91,4 +91,9 @@ building_hackery_3 = {
 	allow = {
 		has_major_upgraded_capital = yes
 	}
+	on_built = {
+		# Ideally: Grant a guaranteed research option that depends on the type of planet this is on.
+		# For example, if built on a ring world segment, grant Mega Engineering.
+		add_research_option = tech_mega_engineering
+	}
 }
