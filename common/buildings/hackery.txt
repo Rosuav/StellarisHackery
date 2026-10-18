@@ -94,6 +94,7 @@ building_hackery_3 = {
 	on_built = {
 		# Ideally: Grant a guaranteed research option that depends on the type of planet this is on.
 		# For example, if built on a ring world segment, grant Mega Engineering.
+		# (Note that this doesn't currently work at all, so it's not stupidly OP, it's just non-functional.)
 		add_research_option = tech_mega_engineering
 	}
 }
